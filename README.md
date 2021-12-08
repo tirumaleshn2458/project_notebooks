@@ -1,7 +1,7 @@
-# Project files(Jupyter notebooks) for reference
+# Real Estate Sales
 
-Thank you for visiting this repository.
-Please switch the branches to view or clone the project files of your choice. 
-![Instructions](/assets/Screenshot1.jpeg)
-![](/assets/Screenshot2.png)
+## Dataset:- https://catalog.data.gov/dataset/real-estate-sales-2001-2018
+
+## Deployed link:- To be deployed link
+
 
