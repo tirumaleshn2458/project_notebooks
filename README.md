@@ -1,7 +1,3 @@
-# Project files(Jupyter notebooks) for reference
+# Maryland vehicle crashes EDA
 
-Thank you for visiting this repository.
-Please switch the branches to view or clone the project files of your choice. 
-![Instructions](/assets/Screenshot1.jpeg)
-![](/assets/Screenshot2.png)
-
+Data link:- https://drive.google.com/file/d/1TZqLDdkd6p8oLIHpxDaljOKpZ5w7P2Kw/view?usp=sharing
