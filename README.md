@@ -1,7 +1,72 @@
 # Air Quality Index Prediction
-## Aim:- To predict the quality of Air 
+## Aim:- To predict the quality of Air using PM2.5(Particulate Matter)
+
 **Dataset:-**[Click here](https://raw.githubusercontent.com/krishnaik06/AQI-Project/master/Data/Real-Data/Real_Combine.csv)
 **Pickle file used for deployment:-** [Click here](https://drive.google.com/file/d/1Sddf72th-qgvajzgTDAzLZE1KYQcv1yw/view?usp=sharing)
 
-**Pipelines**
+*Note:-* The dataset is taken from another github repository and called as an API. 
+
+**Files:-** Each and every is executed in jupyter notebook(.ipynb) files. 
+
+## Pipelines
+- Data Analysis
+- Feature Selection
+- Model Training
+- Hyper-parameter tuning
+
+**Data Analysis**
+- Read the dataset by calling as an API.
+- All features in the dataset are of numeric dtype.
+- Pairplot is plotted to check the relationship between 2 features.
+- Used .corr() function to check the correlation between features in dataframe.
+- *Libraries used:*
+  - [Pandas](https://pandas.pydata.org/docs/) for data manupulation.
+  - [Numpy](https://numpy.org/doc/) for mathematical computation
+  - [Seaborn] for visualization
+  - [matplotlib] for plotting the figures
+
+**Feature Selection**
+- Used ExtraTreeRegressor model from sklearn to get the feature importance values.
+- Considered all input features since, the accuracy is more when the input features are limited.
+
+**Model Training and Evaluation**
+- Splitted the data into train(70%) and test data(30%).
+- Model trained:
+  - Linear Regression 
+    - [Sklearn model](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+    - [Concept](http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm#:~:text=Linear%20regression%20attempts%20to%20model,linear%20equation%20to%20observed%20data.&text=A%20linear%20regression%20line%20has,Y%20is%20the%20dependent%20variable.)
+  - Lasso Regression
+    - [Concept](https://www.mygreatlearning.com/blog/understanding-of-lasso-regression/)
+    - [Sklearn API](https://scikit-learn.org/0.15/modules/generated/sklearn.linear_model.Lasso.html)
+  - Ridge Regression
+    - [Concept](https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Ridge_Regression.pdf)
+    - [Sklearn API](https://scikit-learn.org/0.15/modules/generated/sklearn.linear_model.Ridge.html#sklearn.linear_model.Ridge)
+  - Decision Tree Regressor
+    - [Concept](https://www.saedsayad.com/decision_tree_reg.htm)
+    - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html#sklearn.tree.DecisionTreeRegressor)
+  - K-Nearest Neighbors Regressor
+    - [Concept](https://www.saedsayad.com/k_nearest_neighbors_reg.htm)
+    - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html)
+  - Random Forest Regressor
+    - [Concept](https://gdcoder.com/random-forest-regressor-explained-in-depth/)
+    - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html)
+  - XGBoost Regressor
+    - [Concept](https://docs.aws.amazon.com/sagemaker/latest/dg/xgboost-HowItWorks.html)
+    - [Xgboost API](https://xgboost.readthedocs.io/en/stable/python/python_api.html#xgboost.XGBRFRegressor.apply)
+  - ANN(Artificial Neural Network)
+    - [Concept](https://www.tutorialspoint.com/artificial_neural_network/artificial_neural_network_basic_concepts.htm)
+    - [Keras API](https://keras.io/api/models/sequential/)
+ - Evaluation metrics
+   - Performed cross validation using sklearn.cross_val_score 
+     - [Concept](https://machinelearningmastery.com/k-fold-cross-validation/#:~:text=Cross%2Dvalidation%20is%20a%20resampling,k%2Dfold%20cross%2Dvalidation.)
+     - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html)
+   - MAE(Mean Absolute Error)
+     - [Concept](https://en.wikipedia.org/wiki/Mean_absolute_error)
+     - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_absolute_error.html)
+   - MSE(Mean Squared Error)
+     - [Concept](https://www.statisticshowto.com/probability-and-statistics/statistics-definitions/mean-squared-error/#:~:text=The%20mean%20squared%20error%20(MSE,errors%E2%80%9D)%20and%20squaring%20them.&text=It's%20called%20the%20mean%20squared,of%20a%20set%20of%20errors.)
+     - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html)
+    - RMSE(Root Mean Squared Error)
+      - [Concept](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/rmse-root-mean-square-error/)
+      - [Sklearn API for MSE](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html)
 
