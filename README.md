@@ -43,7 +43,7 @@
 - All features in the dataset are of numeric dtype.
 - Pairplot is plotted to check the relationship between 2 features.
 - Used correlation function to check the measure of relation between features in dataframe.
-  - ![Correlation function](https://www.statisticshowto.com/wp-content/uploads/2012/10/pearson.gif)
+  - <img src="https://www.statisticshowto.com/wp-content/uploads/2012/10/pearson.gif" width="300" height="120">
 - *Libraries used:*
   - [Pandas](https://pandas.pydata.org/docs/) for data manupulation.
   - [Numpy](https://numpy.org/doc/) for mathematical computation
