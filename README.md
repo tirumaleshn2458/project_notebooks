@@ -22,8 +22,8 @@
 - *Libraries used:*
   - [Pandas](https://pandas.pydata.org/docs/) for data manupulation.
   - [Numpy](https://numpy.org/doc/) for mathematical computation
-  - [Seaborn] for visualization
-  - [matplotlib] for plotting the figures
+  - [Seaborn](https://seaborn.pydata.org/) for visualization
+  - [matplotlib](https://matplotlib.org/) for plotting the figures
 
 **Feature Selection**
 - Used ExtraTreeRegressor model from sklearn to get the feature importance values.
@@ -56,7 +56,11 @@
   - ANN(Artificial Neural Network)
     - [Concept](https://www.tutorialspoint.com/artificial_neural_network/artificial_neural_network_basic_concepts.htm)
     - [Keras API](https://keras.io/api/models/sequential/)
- - Evaluation metrics
+- Hyperparameter tuning
+  - Performed Random search cv for RandomForestRegressor, XGBoost Regressor 
+  - Performed Grid Search CV for Decision Tree Regressor,
+  - Performed iteration of K combination for KNN Regressor.
+- Evaluation metrics
    - Performed cross validation using sklearn.cross_val_score 
      - [Concept](https://machinelearningmastery.com/k-fold-cross-validation/#:~:text=Cross%2Dvalidation%20is%20a%20resampling,k%2Dfold%20cross%2Dvalidation.)
      - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.cross_val_score.html)
@@ -69,4 +73,6 @@
     - RMSE(Root Mean Squared Error)
       - [Concept](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/rmse-root-mean-square-error/)
       - [Sklearn API for MSE](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html)
+- Model selection
+  - Selected Random Forest Regressor since, it has less error than other models.
 
