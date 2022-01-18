@@ -5,9 +5,30 @@
 
 **Pickle file used for deployment:-** [Click here](https://drive.google.com/file/d/1Sddf72th-qgvajzgTDAzLZE1KYQcv1yw/view?usp=sharing)
 
+**Deployment:-** [Click here](https://tirumaleshndeployments2022.herokuapp.com/) to check the deployment in Machine Learning Section.
+
 *Note:-* The dataset is taken from another github repository and called as an API. 
 
 **Files:-** Each and every is executed in jupyter notebook(.ipynb) files. 
+
+**About Features**
+- T - Temperature in Air
+
+- TM - Maximum Temperature
+
+- Tm - Minimum Temperature
+
+- SLP - Atmospheric pressure at sea level (hPa)
+
+- H - Average relative humidity (%)
+
+- VV - Average visibility
+
+- V - Average wind speed (Km/h)
+
+- VM - Maximum sustained wind speed (Km/h)
+
+- PM 2.5 - Particulate matter 2.5
 
 ## Pipelines
 - Data Analysis
