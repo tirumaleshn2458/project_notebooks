@@ -6,6 +6,7 @@
 **Pickle file used for deployment:-** [Click here](https://drive.google.com/file/d/1Sddf72th-qgvajzgTDAzLZE1KYQcv1yw/view?usp=sharing)
 
 **Deployment:-** [Click here](https://tirumaleshndeployments2022.herokuapp.com/) to check the deployment in Machine Learning Section.
+![](https://github.com/tirumaleshn2458/project_notebooks/blob/73637f77bfdc2bc38a7ec3bb6173d416dacf43d4/assets/Screenshot%202022-01-18%20at%2011.59.03%20PM.png)
 
 *Note:-* The dataset is taken from another github repository and called as an API. 
 
