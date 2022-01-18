@@ -62,7 +62,11 @@
     - [Keras API](https://keras.io/api/models/sequential/)
 - Hyperparameter tuning
   - Performed Random search cv for RandomForestRegressor, XGBoost Regressor 
-  - Performed Grid Search CV for Decision Tree Regressor,
+    - [Concept for Random Search CV](https://www.section.io/engineering-education/random-search-hyperparameters/)
+    - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
+  - Performed Grid Search CV for Decision Tree Regressor
+    - [Concept for Grid Search CV](https://elutins.medium.com/grid-searching-in-machine-learning-quick-explanation-and-python-implementation-550552200596#:~:text=Grid%2Dsearching%20is%20the%20process,parameters%20for%20a%20given%20model.&text=Grid%2DSearch%20will%20build%20a,a%20model%20for%20each%20combination.)
+    - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html)
   - Performed iteration of K combination for KNN Regressor.
 - Evaluation metrics
    - Performed cross validation using sklearn.cross_val_score 
