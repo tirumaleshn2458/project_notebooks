@@ -19,7 +19,8 @@
 - Read the dataset by calling as an API.
 - All features in the dataset are of numeric dtype.
 - Pairplot is plotted to check the relationship between 2 features.
-- Used .corr() function to check the correlation between features in dataframe.
+- Used correlation function to check the measure of relation between features in dataframe.
+  - ![Correlation function](https://www.gstatic.com/education/formulas2/397133473/en/correlation_coefficient_formula.svg)
 - *Libraries used:*
   - [Pandas](https://pandas.pydata.org/docs/) for data manupulation.
   - [Numpy](https://numpy.org/doc/) for mathematical computation
@@ -28,13 +29,15 @@
 
 **Feature Selection**
 - Used ExtraTreeRegressor model from sklearn to get the feature importance values.
+  - [Concept](https://www.geeksforgeeks.org/ml-extra-tree-classifier-for-feature-selection/)
+  - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html)
 - Considered all input features since, the accuracy is more when the input features are limited.
 
 **Model Training and Evaluation**
 - Splitted the data into train(70%) and test data(30%).
 - Model trained:
   - Linear Regression 
-    - [Sklearn model](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
+    - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html)
     - [Concept](http://www.stat.yale.edu/Courses/1997-98/101/linreg.htm#:~:text=Linear%20regression%20attempts%20to%20model,linear%20equation%20to%20observed%20data.&text=A%20linear%20regression%20line%20has,Y%20is%20the%20dependent%20variable.)
   - Lasso Regression
     - [Concept](https://www.mygreatlearning.com/blog/understanding-of-lasso-regression/)
@@ -75,5 +78,6 @@
       - [Concept](https://www.statisticshowto.com/probability-and-statistics/regression-analysis/rmse-root-mean-square-error/)
       - [Sklearn API for MSE](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html)
 - Model selection
+  - Model is selected based on metrics
   - Selected Random Forest Regressor since, it has less error than other models.
 
