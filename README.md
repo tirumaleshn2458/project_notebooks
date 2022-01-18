@@ -7,7 +7,7 @@
 
 **Deployment:-** [Click here](https://tirumaleshndeployments2022.herokuapp.com/) to check the deployment in Machine Learning Section.
 
-<img src="https://github.com/tirumaleshn2458/project_notebooks/blob/73637f77bfdc2bc38a7ec3bb6173d416dacf43d4/assets/Screenshot%202022-01-18%20at%2011.59.03%20PM.png" width="700" height="450">
+<img src="https://github.com/tirumaleshn2458/project_notebooks/blob/73637f77bfdc2bc38a7ec3bb6173d416dacf43d4/assets/Screenshot%202022-01-18%20at%2011.59.03%20PM.png" width="500" height="250">
 
 *Note:-* The dataset is taken from another github repository and called as an API. 
 
