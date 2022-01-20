@@ -13,4 +13,4 @@ Data link:- https://drive.google.com/file/d/1TZqLDdkd6p8oLIHpxDaljOKpZ5w7P2Kw/vi
 
 **Data Summary**
 - Displays a report that includes the count of crashes with all the features available.
-- The report is displayed for 1 year or more than 1 year.
+- The report displays the count of 1 year or more than 1 year.
