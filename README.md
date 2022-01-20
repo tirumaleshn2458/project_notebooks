@@ -2,6 +2,10 @@
 
 ## Dataset link:- https://www.kaggle.com/brijbhushannanda1979/bigmart-sales-data
 
+**Deployments:-** [Here](https://tirumaleshndeployments2022.herokuapp.com/)
+
+<img src="https://github.com/tirumaleshn2458/project_notebooks/blob/Big-Mart-Sales/assets/Screenshot%202022-01-20%20at%208.36.04%20PM.png" width="500" height="250">
+
 ## Aim: ML model to predict the sales of the different stores of Big Mart according to the provided dataset.
 
 ## Description: 
