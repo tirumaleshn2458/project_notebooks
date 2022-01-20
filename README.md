@@ -4,7 +4,7 @@
 
 **Dataset:-** https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
 
-*note:-* Both Feature Engineering and Feature Selection are included in Feature Engineering file itself.
+*Note:-* Both Feature Engineering and Feature Selection are included in Feature Engineering file itself.
 #### Features overview:
 
 - Age: Age of the employee(Integer type)
