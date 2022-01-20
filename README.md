@@ -39,11 +39,12 @@
 - Hyper-parameter tuning
 
 **Data Analysis**
-- Read the dataset by calling as an API.
-- All features in the dataset are of numeric dtype.
-- Pairplot is plotted to check the relationship between 2 features.
-- Used correlation function to check the measure of relation between features in dataframe.
-  - <img src="https://www.statisticshowto.com/wp-content/uploads/2012/10/pearson.gif" width="300" height="120">
+- Read the downloaded dataset from kaggle.
+- Plotted boxplot to check the outliers.
+- Plotted distplot to check the distribution of continuos features.
+- Performed line plot to check how trends are fluctuating between each category.
+- Plotted joinplot using seaborn to see the relationship between numerical and target feature.
+
 - *Libraries used:*
   - [Pandas](https://pandas.pydata.org/docs/) for data manupulation.
   - [Numpy](https://numpy.org/doc/) for mathematical computation
@@ -51,9 +52,12 @@
   - [matplotlib](https://matplotlib.org/) for plotting the figures
 
 **Feature Selection**
-- Used ExtraTreeRegressor model from sklearn to get the feature importance values.
-  - [Concept](https://www.geeksforgeeks.org/ml-extra-tree-classifier-for-feature-selection/)
-  - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesRegressor.html)
+- Used SelectFromModel with Lasso model from sklearn to select the features.
+  - SelectFromModel
+    - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html)
+  - Lasso
+    - [Concept](https://www.statisticshowto.com/lasso-regression/#:~:text=Lasso%20regression%20is%20a%20type,i.e.%20models%20with%20fewer%20parameters).&text=The%20acronym%20%E2%80%9CLASSO%E2%80%9D%20stands%20for,Absolute%20Shrinkage%20and%20Selection%20Operator.)
+    - [Sklearn API](https://scikit-learn.org/0.15/modules/generated/sklearn.linear_model.Lasso.html)
 - Considered all input features since, the accuracy is more when the input features are limited.
 
 **Model Training and Evaluation**
