@@ -39,11 +39,11 @@
 - Hyper-parameter tuning
 
 **Data Analysis**
-- Read the downloaded dataset from kaggle.
-- Plotted boxplot to check the outliers.
-- Plotted distplot to check the distribution of continuos features.
-- Performed line plot to check how trends are fluctuating between each category.
-- Plotted joinplot using seaborn to see the relationship between numerical and target feature.
+- Read the dataset by calling as an API.
+- All features in the dataset are of numeric dtype.
+- Pairplot is plotted to check the relationship between 2 features.
+- Used correlation function to check the measure of relation between features in dataframe.
+  - <img src="https://www.statisticshowto.com/wp-content/uploads/2012/10/pearson.gif" width="300" height="120">
 
 - *Libraries used:*
   - [Pandas](https://pandas.pydata.org/docs/) for data manupulation.
