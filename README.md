@@ -1,10 +1,11 @@
 # Employee Attrition
 
-## Aim: To predict whether the employed remain in his job or not.
+## Aim: To predict whether the employ should be attrited or retained.
 
-### Description: 
-#### The ML model used for this data predicts whether the employee should retained or not within a company. 
-#### Features used:
+**Dataset:-** https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
+
+*note:-* Both Feature Engineering and Feature Selection are included in Feature Engineering file itself.
+#### Features overview:
 
 - Age: Age of the employee(Integer type)
 - Atrrition: Whether the employee is fired or not
@@ -40,3 +41,35 @@
 - YearsInCurrentRole: How many does the employee worked in a particular role
 - YearsSinceLastPromotion: How many years are completed sinse their last promotion
 - YearsWithCurrManager: How many does the employee worked under thier current manager
+
+## Pipelines
+- Data Analysis
+- Feature Engineering
+- Feature Selection
+- Model training
+
+**Data Analysis**
+- The features in dataset are with combination of numerical and categorical type.
+- Plotted distplot for numerical features.
+- Plotted countplot for categorical features to find the relationship between the target feature and the categorical features.
+- Checked out the correlation between numerical features in the dataset and plotted heatmap to check with visualization.
+
+**Feature Engineering**
+- Since, the dataset is imbalanced. I performed random sampling to make it balanced.
+- Converting the categorical features into numerical features using label encoding. 
+- Transformed the values of 'MonthlyIncome' into log values feature to remove outliers.
+- Scaled the values using MinMaxScaler to get the better for the ML model.
+
+**Feature Selection**
+- Checked the value of the features using SelectKBest and ExtraTreeClassifier model.
+- Finally, selected the features using SelectKBest model whose score is greater than or equal to 1.
+- ExtraTreeClassifier
+  - [Concept](https://www.geeksforgeeks.org/ml-extra-tree-classifier-for-feature-selection/)
+  - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.ExtraTreesClassifier.html)
+- SelectKBest
+  - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html)
+
+**Model training**
+- Trained the data using Logistic Regression 
+  - [Concept](https://searchbusinessanalytics.techtarget.com/definition/logistic-regression#:~:text=Logistic%20regression%20is%20a%20statistical,observations%20of%20a%20data%20set.&text=A%20logistic%20regression%20model%20predicts,or%20more%20existing%20independent%20variables.)
+  - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
