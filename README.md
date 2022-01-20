@@ -56,7 +56,7 @@
   - SelectFromModel
     - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html)
   - Lasso
-    - [Concept](https://www.statisticshowto.com/lasso-regression/#:~:text=Lasso%20regression%20is%20a%20type,i.e.%20models%20with%20fewer%20parameters).&text=The%20acronym%20%E2%80%9CLASSO%E2%80%9D%20stands%20for,Absolute%20Shrinkage%20and%20Selection%20Operator.)
+    - [Concept](https://www.statisticshowto.com/lassoregression/#:~:text=Lasso%20regression%20is%20a%20type,i.e.%20models%20with%20fewer%20parameters)
     - [Sklearn API](https://scikit-learn.org/0.15/modules/generated/sklearn.linear_model.Lasso.html)
 - Considered all input features since, the accuracy is more when the input features are limited.
 
