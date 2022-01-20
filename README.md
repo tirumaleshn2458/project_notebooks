@@ -70,6 +70,26 @@
   - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html)
 
 **Model training**
-- Trained the data using Logistic Regression 
+- Trained the data with various algorithms
+- LogisticRegression 
   - [Concept](https://searchbusinessanalytics.techtarget.com/definition/logistic-regression#:~:text=Logistic%20regression%20is%20a%20statistical,observations%20of%20a%20data%20set.&text=A%20logistic%20regression%20model%20predicts,or%20more%20existing%20independent%20variables.)
   - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+- RandomForestClassifier
+  - [Concept](https://www.analyticsvidhya.com/blog/2021/06/understanding-random-forest/)
+  - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+- DecisionTreeClassifier
+  - [Concept](https://www.saedsayad.com/decision_tree.htm#:~:text=Decision%20Tree%20%2D%20Classification,decision%20tree%20is%20incrementally%20developed.&text=Decision%20trees%20can%20handle%20both%20categorical%20and%20numerical%20data)
+  - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+- XGBClassifier
+  - [Concept](https://www.linkedin.com/pulse/xgboost-classifier-algorithm-machine-learning-kavya-kumar)
+  - [XGBoost API](https://xgboost.readthedocs.io/en/stable/python/python_api.html)
+- GradientBoostingClassifier
+  - [Concept](https://www.displayr.com/gradient-boosting-the-coolest-kid-on-the-machine-learning-block/#:~:text=Gradient%20boosting%20is%20a%20type,minimizes%20the%20overall%20prediction%20error.&text=reduce%20the%20error.-,If%20a%20small%20change%20in%20the%20prediction%20for%20a%20case,of%20the%20case%20is%20zero.)
+  - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
+- KNeighborsClassifier
+  - [Concept](https://learn.g2.com/k-nearest-neighbor)
+  - [Sklearn API](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html)
+
+- Measured the accuracy using r2_score which returns the coefficient of determination of the prediction.
+- Presented the reports using classification_report from sklearn.
+  [Classification Report](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)
