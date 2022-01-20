@@ -25,6 +25,11 @@
 - Plotted pairplot to check the relationship between features in the dataframe.
 - Plotted the displot to check the distribution of continuos features.
 - Plotted boxplots to see the outliers in continuos features.
+- *Libraries used:*
+  - [Pandas](https://pandas.pydata.org/docs/) for data manupulation.
+  - [Numpy](https://numpy.org/doc/) for mathematical computation
+  - [Seaborn](https://seaborn.pydata.org/) for visualization
+  - [matplotlib](https://matplotlib.org/) for plotting the figures
 
 **Feature Engineering**
 - Handled null values by imputating a function to replace them with median value of that particular feature.
