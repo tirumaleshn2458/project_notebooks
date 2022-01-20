@@ -1,6 +1,6 @@
 # Real Estate Sales
 
-## Aim:- **To Predict the Sale Amount of the house valued featured with certain values.
+## Aim:- **To Predict the Sale Amount of the house valued featured with certain values.**
 
 **Dataset:-** https://catalog.data.gov/dataset/real-estate-sales-2001-2018
 
