@@ -53,6 +53,11 @@
 - Plotted distplot for numerical features.
 - Plotted countplot for categorical features to find the relationship between the target feature and the categorical features.
 - Checked out the correlation between numerical features in the dataset and plotted heatmap to check with visualization.
+- *Libraries used:*
+  - [Pandas](https://pandas.pydata.org/docs/) for data manupulation.
+  - [Numpy](https://numpy.org/doc/) for mathematical computation
+  - [Seaborn](https://seaborn.pydata.org/) for visualization
+  - [matplotlib](https://matplotlib.org/) for plotting the figures
 
 **Feature Engineering**
 - Since, the dataset is imbalanced. I performed random sampling to make it balanced.
