@@ -2,7 +2,9 @@
 
 Data link:- https://drive.google.com/file/d/1TZqLDdkd6p8oLIHpxDaljOKpZ5w7P2Kw/view?usp=sharing
 
-## Deployment:- https://tirumaleshndeployments2022.herokuapp.com/
+**Deployment:-** [Click here](https://tirumaleshndeployments2022.herokuapp.com/)
+
+<img src="https://github.com/tirumaleshn2458/project_notebooks/blob/86543c137900981989c5a62006daa00ef5458a40/assets/Screenshot%202022-01-20%20at%205.09.13%20PM.png" width="500" height="250">
 
 
 **Data Analysis**
