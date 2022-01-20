@@ -2,7 +2,7 @@
 ## Aim:- To predict whether the water is potable or not.
 **Dataset:-** [Here](https://raw.githubusercontent.com/amankharwal/Website-data/master/water_potability.csv)
 
-**Deployment:-** [Here](https://tirumaleshndeployments2022.herokuapp.com/)
+**Deployment:-** [Click here](https://tirumaleshndeployments2022.herokuapp.com/) to check the deployment in Machine Learning Section.
 
 <img src="https://github.com/tirumaleshn2458/project_notebooks/blob/water_quality_prediction/assets/Screenshot%202022-01-20%20at%208.25.21%20PM.png" width="500" height="250">
 
