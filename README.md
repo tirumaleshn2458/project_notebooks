@@ -3,6 +3,9 @@
 ## Aim: To predict whether the employ should be attrited or retained.
 
 **Dataset:-** https://www.kaggle.com/pavansubhasht/ibm-hr-analytics-attrition-dataset
+**Deployment:-** [Click here](https://tirumaleshndeployments2022.herokuapp.com/) to check the deployment in Machine Learning Section.
+
+<img src="https://github.com/tirumaleshn2458/project_notebooks/blob/Employee-Attrition/assets/Screenshot%202022-01-20%20at%208.33.04%20PM.png" width="500" height="250">
 
 *Note:-* Both Feature Engineering and Feature Selection are included in Feature Engineering file itself.
 #### Features overview:
